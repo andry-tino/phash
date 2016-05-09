@@ -25,6 +25,8 @@ D Grant Starkweather - dstarkweather@phash.org
 #ifndef _PHASH_H
 #define _PHASH_H
 
+// TODO: Code is using deprecated stuff, update and remove this
+#define _CRT_SECURE_NO_WARNINGS
 
 #ifndef _WIN32
 #include <pHash-config.h>
@@ -45,7 +47,6 @@ D Grant Starkweather - dstarkweather@phash.org
 #include <stdlib.h>
 
 #define __STDC_CONSTANT_MACROS
-
 
 #if defined(HAVE_IMAGE_HASH) || defined(HAVE_VIDEO_HASH)
 #define cimg_debug 0

@@ -1135,7 +1135,7 @@ char** ph_readfilenames(const char *dirname, int &count) {
 			strcat(path, dirname);
 			strcat(path, "/");
 			strcat(path, dir_entry->d_name);
-			files[index++] = strdup(path);
+			files[index++] = _strdup(path);
 		}
 		path[0] = '\0';
 	}
@@ -1186,7 +1186,7 @@ TxtHashPoint* ph_texthash(const char *filename, int *nbpoints) {
 		return NULL;
 	}
 	struct stat fileinfo;
-	fstat(fileno(pfile), &fileinfo);
+	fstat(_fileno(pfile), &fileinfo);
 	count = fileinfo.st_size - WindowLength + 1;
 	count = (int)(0.01*count);
 	int d;
