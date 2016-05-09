@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CImg.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="jconfig.h" />
+    <ClInclude Include="jerror.h" />
+    <ClInclude Include="jmorecfg.h" />
+    <ClInclude Include="jpeglib.h" />
+    <ClInclude Include="phash.h" />
+    <ClInclude Include="phcomplex.h" />
+    <ClInclude Include="ph_fft.h" />
+    <ClInclude Include="png.h" />
+    <ClInclude Include="pngconf.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dirent.c" />
+    <ClCompile Include="phash.cpp" />
+    <ClCompile Include="phcomplex.c" />
+    <ClCompile Include="ph_fft.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{59339291-093C-4298-8393-C0098160796A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,8 +166,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
