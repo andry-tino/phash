@@ -18,54 +18,54 @@
     <ClInclude Include="phash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CImg.h">
+    <ClInclude Include="imaging\CImg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="dirent.h">
+    <ClInclude Include="fft\phcomplex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="jconfig.h">
+    <ClInclude Include="fft\ph_fft.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="jerror.h">
+    <ClInclude Include="imaging\png.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="jmorecfg.h">
+    <ClInclude Include="imaging\pngconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="jpeglib.h">
+    <ClInclude Include="imaging\jpeglib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph_fft.h">
+    <ClInclude Include="posix\dirent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="phcomplex.h">
+    <ClInclude Include="compression\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="png.h">
+    <ClInclude Include="compression\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pngconf.h">
+    <ClInclude Include="imaging\jconfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zconf.h">
+    <ClInclude Include="imaging\jerror.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zlib.h">
+    <ClInclude Include="imaging\jmorecfg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dirent.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ph_fft.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="phcomplex.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="phash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fft\phcomplex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fft\ph_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posix\dirent.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -37,7 +37,6 @@ D Grant Starkweather - dstarkweather@phash.org
 
 #include <limits.h>
 #include <math.h>
-#include "dirent.h"
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -46,12 +45,14 @@ D Grant Starkweather - dstarkweather@phash.org
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "posix/dirent.h"
+
 #define __STDC_CONSTANT_MACROS
 
 #if defined(HAVE_IMAGE_HASH) || defined(HAVE_VIDEO_HASH)
 #define cimg_debug 0
 #define cimg_display 0
-#include "CImg.h"
+#include "imaging/CImg.h"
 using namespace cimg_library;
 #endif
 

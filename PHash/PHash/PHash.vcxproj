@@ -19,25 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CImg.h" />
-    <ClInclude Include="dirent.h" />
-    <ClInclude Include="jconfig.h" />
-    <ClInclude Include="jerror.h" />
-    <ClInclude Include="jmorecfg.h" />
-    <ClInclude Include="jpeglib.h" />
+    <ClInclude Include="imaging\CImg.h" />
+    <ClInclude Include="posix\dirent.h" />
+    <ClInclude Include="imaging\jconfig.h" />
+    <ClInclude Include="imaging\jerror.h" />
+    <ClInclude Include="imaging\jmorecfg.h" />
+    <ClInclude Include="imaging\jpeglib.h" />
     <ClInclude Include="phash.h" />
-    <ClInclude Include="phcomplex.h" />
-    <ClInclude Include="ph_fft.h" />
-    <ClInclude Include="png.h" />
-    <ClInclude Include="pngconf.h" />
-    <ClInclude Include="zconf.h" />
-    <ClInclude Include="zlib.h" />
+    <ClInclude Include="fft\phcomplex.h" />
+    <ClInclude Include="fft\ph_fft.h" />
+    <ClInclude Include="imaging\png.h" />
+    <ClInclude Include="imaging\pngconf.h" />
+    <ClInclude Include="compression\zconf.h" />
+    <ClInclude Include="compression\zlib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dirent.c" />
+    <ClCompile Include="posix\dirent.c" />
     <ClCompile Include="phash.cpp" />
-    <ClCompile Include="phcomplex.c" />
-    <ClCompile Include="ph_fft.c" />
+    <ClCompile Include="fft\phcomplex.c" />
+    <ClCompile Include="fft\ph_fft.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{59339291-093C-4298-8393-C0098160796A}</ProjectGuid>
