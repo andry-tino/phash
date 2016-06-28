@@ -48,6 +48,7 @@ D Grant Starkweather - dstarkweather@phash.org
 #include "posix/dirent.h"
 
 #define __STDC_CONSTANT_MACROS
+#define PHEXPORT __declspec(dllexport)
 
 #if defined(HAVE_IMAGE_HASH) || defined(HAVE_VIDEO_HASH)
 #define cimg_debug 0
@@ -305,7 +306,7 @@ extern "C" {
 	*  /param hash of type ulong64 (must be 64-bit variable)
 	*  /return int value - -1 for failure, 1 for success
 	*/
-	int ph_dct_imagehash(const char* file, ulong64 &hash);
+	PHEXPORT int ph_dct_imagehash(const char* file, ulong64 &hash);
 
 	int ph_bmb_imagehash(const char *file, uint8_t method, BinHash **ret_hash);
 #endif
