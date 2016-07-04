@@ -1,0 +1,44 @@
+﻿  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+msvcrt.lib(_secchk_.obj) : warning LNK4078: multiple '.text' sections found with different attributes (60101020)
+     Creating library C:\Users\antino\Downloads\libpng-1419\lpng1419\projects\vstudio\Release\libpng14.lib and object C:\Users\antino\Downloads\libpng-1419\lpng1419\projects\vstudio\Release\libpng14.exp
+png.obj : error LNK2001: unresolved external symbol __imp____stdio_common_vsprintf
+pngmem.obj : error LNK2001: unresolved external symbol __imp__free
+pngmem.obj : error LNK2001: unresolved external symbol __imp__malloc
+pngread.obj : error LNK2001: unresolved external symbol _longjmp
+pngrio.obj : error LNK2001: unresolved external symbol __imp__fread
+pngrutil.obj : error LNK2001: unresolved external symbol __imp__strtod
+pngwio.obj : error LNK2001: unresolved external symbol __imp__fflush
+pngwio.obj : error LNK2001: unresolved external symbol __imp__fwrite
+pngwrite.obj : error LNK2001: unresolved external symbol __imp___gmtime64
+msvcrt.lib(dll_dllmain.obj) : error LNK2001: unresolved external symbol __initterm
+msvcrt.lib(dll_dllmain.obj) : error LNK2001: unresolved external symbol __initterm_e
+msvcrt.lib(dll_dllmain.obj) : error LNK2001: unresolved external symbol ___telemetry_main_invoke_trigger
+msvcrt.lib(dll_dllmain.obj) : error LNK2001: unresolved external symbol ___telemetry_main_return_trigger
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __seh_filter_dll
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __configure_narrow_argv
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __initialize_narrow_environment
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __initialize_onexit_table
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __register_onexit_function
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __execute_onexit_table
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __crt_atexit
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __crt_at_quick_exit
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __cexit
+msvcrt.lib(tncleanup.obj) : error LNK2001: unresolved external symbol ___std_type_info_destroy_list
+msvcrt.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol _terminate
+msvcrt.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol _memset
+msvcrt.lib(_chandler4gs_.obj) : error LNK2001: unresolved external symbol __except_handler4_common
+C:\Users\antino\Downloads\libpng-1419\lpng1419\projects\vstudio\Release\libpng14.dll : fatal error LNK1120: 26 unresolved externals

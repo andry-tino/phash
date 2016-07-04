@@ -27,7 +27,7 @@ namespace Hashing.Perceptual
             float radius, float threshold, IntPtr[] results, ref int count);
 
         [DllImport("pHash", CharSet = CharSet.Ansi)]
-        public static extern int ph_dct_imagehash(string file, ref ulong hash);
+        public static extern int ph_dct_imagehash(string file, ref ulong hash, System.Text.StringBuilder error);
 
         [DllImport("pHash", CharSet = CharSet.Ansi)]
         private static extern MVPRetCode ph_save_mvptree(ref MVPFile m, IntPtr[] points, int num);

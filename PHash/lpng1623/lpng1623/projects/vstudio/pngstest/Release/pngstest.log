@@ -1,0 +1,34 @@
+﻿  pngstest.c
+  Generating code
+  Finished generating code
+  pngstest.vcxproj -> C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngstest.exe
+  PASS: ../../../contrib/pngsuite/basn0g01.png
+  PASS: ../../../contrib/pngsuite/basn0g02.png
+  PASS: ../../../contrib/pngsuite/basn0g04.png
+  PASS: ../../../contrib/pngsuite/basn0g08.png
+  PASS: ../../../contrib/pngsuite/basn0g16.png
+  PASS: ../../../contrib/pngsuite/basn2c08.png
+  PASS: ../../../contrib/pngsuite/basn2c16.png
+  PASS: ../../../contrib/pngsuite/basn3p01.png
+  PASS: ../../../contrib/pngsuite/basn3p02.png
+  PASS: ../../../contrib/pngsuite/basn3p04.png
+  PASS: ../../../contrib/pngsuite/basn3p08.png
+  PASS: ../../../contrib/pngsuite/basn4a08.png
+  PASS: ../../../contrib/pngsuite/basn4a16.png
+  PASS: ../../../contrib/pngsuite/basn6a08.png
+  PASS: ../../../contrib/pngsuite/basn6a16.png
+  PASS: ../../../contrib/pngsuite/ftbbn0g01.png
+  PASS: ../../../contrib/pngsuite/ftbbn0g02.png
+  PASS: ../../../contrib/pngsuite/ftbbn0g04.png
+  PASS: ../../../contrib/pngsuite/ftbbn2c16.png
+  PASS: ../../../contrib/pngsuite/ftbbn3p08.png
+  PASS: ../../../contrib/pngsuite/ftbgn2c16.png
+  PASS: ../../../contrib/pngsuite/ftbgn3p08.png
+  PASS: ../../../contrib/pngsuite/ftbrn2c08.png
+  PASS: ../../../contrib/pngsuite/ftbwn0g16.png
+  PASS: ../../../contrib/pngsuite/ftbwn3p08.png
+  PASS: ../../../contrib/pngsuite/ftbyn3p08.png
+  PASS: ../../../contrib/pngsuite/ftp0n0g08.png
+  PASS: ../../../contrib/pngsuite/ftp0n2c08.png
+  PASS: ../../../contrib/pngsuite/ftp0n3p08.png
+  PASS: ../../../contrib/pngsuite/ftp1n3p08.png

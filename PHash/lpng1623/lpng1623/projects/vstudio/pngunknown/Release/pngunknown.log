@@ -1,0 +1,11 @@
+﻿  pngunknown.c
+  Generating code
+  Finished generating code
+  pngunknown.vcxproj -> C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe discard
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe save
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe if-safe
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe vpAg
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe sTER
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe IDAT
+  PASS: C:\Users\antino\Documents\GitHub\phash\PHash\lpng1623\lpng1623\projects\vstudio\Release\pngunknown.exe sAPI

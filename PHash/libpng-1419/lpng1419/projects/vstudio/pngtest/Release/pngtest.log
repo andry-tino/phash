@@ -1,0 +1,45 @@
+﻿  pngtest.c
+pngtest.obj : error LNK2019: unresolved external symbol __imp____acrt_iob_func referenced in function _test_one_file
+pngtest.obj : error LNK2019: unresolved external symbol __imp__fclose referenced in function _test_one_file
+pngtest.obj : error LNK2019: unresolved external symbol __imp__fopen referenced in function _test_one_file
+pngtest.obj : error LNK2019: unresolved external symbol __imp__fread referenced in function _test_one_file
+pngtest.obj : error LNK2019: unresolved external symbol __imp____stdio_common_vfprintf referenced in function _fprintf
+pngtest.obj : error LNK2019: unresolved external symbol _longjmp referenced in function _test_one_file
+pngtest.obj : error LNK2019: unresolved external symbol __imp__exit referenced in function _main
+pngtest.obj : error LNK2019: unresolved external symbol __setjmp3 referenced in function _test_one_file
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __seh_filter_exe referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __set_app_type referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___setusermatherr referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __configure_narrow_argv referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __configure_narrow_argv
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __initialize_narrow_environment referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __initialize_narrow_environment
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __get_initial_narrow_environment referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __initterm referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __initterm_e referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol _exit referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __exit referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __set_fmode referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___p___argc referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___p___argv referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __cexit referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(utility.obj) : error LNK2001: unresolved external symbol __cexit
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __c_exit referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __register_thread_local_exe_atexit_callback referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___telemetry_main_invoke_trigger referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___telemetry_main_return_trigger referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __configthreadlocale referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol __set_new_mode referenced in function "void __cdecl pre_cpp_initialization(void)" (?pre_cpp_initialization@@YAXXZ)
+msvcrt.lib(exe_main.obj) : error LNK2019: unresolved external symbol ___p__commode referenced in function "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ)
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __seh_filter_dll referenced in function ___scrt_dllmain_exception_filter
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __initialize_onexit_table referenced in function ___scrt_initialize_onexit_tables
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __register_onexit_function referenced in function __onexit
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __execute_onexit_table referenced in function ___scrt_dllmain_uninitialize_c
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __crt_atexit referenced in function __onexit
+msvcrt.lib(utility.obj) : error LNK2019: unresolved external symbol __crt_at_quick_exit referenced in function _at_quick_exit
+msvcrt.lib(tncleanup.obj) : error LNK2019: unresolved external symbol ___std_type_info_destroy_list referenced in function "void __cdecl __scrt_uninitialize_type_info(void)" (?__scrt_uninitialize_type_info@@YAXXZ)
+msvcrt.lib(default_precision.obj) : error LNK2019: unresolved external symbol __controlfp_s referenced in function __initialize_default_precision
+msvcrt.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol _terminate referenced in function ___scrt_unhandled_exception_filter@4
+msvcrt.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol _memset referenced in function ___scrt_fastfail
+msvcrt.lib(_chandler4gs_.obj) : error LNK2019: unresolved external symbol __except_handler4_common referenced in function __except_handler4
+C:\Users\antino\Downloads\libpng-1419\lpng1419\projects\vstudio\Release\pngtest.exe : fatal error LNK1120: 40 unresolved externals
