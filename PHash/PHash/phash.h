@@ -306,7 +306,7 @@ extern "C" {
 	*  /param hash of type ulong64 (must be 64-bit variable)
 	*  /return int value - -1 for failure, 1 for success
 	*/
-	PHEXPORT int ph_dct_imagehash(const char* file, ulong64 &hash);
+	PHEXPORT int ph_dct_imagehash(const char* file, ulong64 &hash, char* error, char* buffer);
 
 	int ph_bmb_imagehash(const char *file, uint8_t method, BinHash **ret_hash);
 #endif
@@ -332,7 +332,7 @@ extern "C" {
 	*   /return int value - less than 0 for error
 	*/
 #ifdef HAVE_IMAGE_HASH
-	int ph_hamming_distance(const ulong64 hash1, const ulong64 hash2);
+	PHEXPORT int ph_hamming_distance(const ulong64 hash1, const ulong64 hash2);
 
 	/** /brief create a list of datapoint's directly from a directory of image files
 	*  /param dirname - path and name of directory containg all image file names

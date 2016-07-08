@@ -403,7 +403,8 @@ int ph_bmb_imagehash(const char *file, uint8_t method, BinHash **ret_hash)
 		return -1;
 	}
 	try {
-		img.load(file);
+		img.load(file, 0);
+		//img.load(file);
 	}
 	catch (CImgIOException ex) {
 		return -1;
@@ -517,18 +518,22 @@ int ph_bmb_imagehash(const char *file, uint8_t method, BinHash **ret_hash)
 	return 0;
 }
 
-int ph_dct_imagehash(const char* file, ulong64 &hash) {
+int ph_dct_imagehash(const char* file, ulong64 &hash, char* error, char* buffer) {
 
 	if (!file) {
 		return -1;
 	}
 	CImg<uint8_t> src;
 	try {
-		src.load(file);
+		src.load(file, buffer);
+		//src.load(file);
 	}
 	catch (CImgIOException ex) {
-		return -1;
+		strcpy(error, ex.what()); // TBR
+		return -2;
 	}
+	strcat(error, "SUCCESS || "); // TBR
+
 	CImg<float> meanfilter(7, 7, 1, 1, 1);
 	CImg<float> img;
 	if (src.spectrum() == 3) {
@@ -550,6 +555,8 @@ int ph_dct_imagehash(const char* file, ulong64 &hash) {
 
 	CImg<float> dctImage = (*C)*img*Ctransp;
 
+	strcat(error, "SUCCESS2 || "); // TBR
+
 	CImg<float> subsec = dctImage.crop(1, 1, 8, 8).unroll('x');;
 
 	float median = subsec.median();
@@ -563,6 +570,12 @@ int ph_dct_imagehash(const char* file, ulong64 &hash) {
 	}
 
 	delete C;
+
+	// TBR
+	char buff[50];
+	sprintf(buff, "%d", hash);
+	strcat(error, "HASH=");
+	strcat(error, buff);
 
 	return 0;
 }
